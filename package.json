@@ -1,0 +1,26 @@
+{
+  "name": "nodeApp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "express3-handlebars": "^0.5.0",
+    "jade": "*"
+  },
+  "description": "Web App",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prai-git/nodeApp"
+  },
+  "author": "Pankaj Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prai-git/nodeApp/issues"
+  },
+  "homepage": "https://github.com/prai-git/nodeApp"
+}

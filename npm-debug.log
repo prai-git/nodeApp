@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'prai-git/nodeApp' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'prai-git/nodeApp', null ]
+7 verbose cache add name=undefined spec="prai-git/nodeApp" args=["prai-git/nodeApp",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'prai-git/nodeApp',
+8 verbose parsed url   path: 'prai-git/nodeApp',
+8 verbose parsed url   href: 'prai-git/nodeApp' }
+9 silly lockFile 17a39af3-prai-git-nodeApp prai-git/nodeApp
+10 verbose lock prai-git/nodeApp C:\Users\admin\AppData\Roaming\npm-cache\17a39af3-prai-git-nodeApp.lock
+11 info maybeGithub Attempting prai-git/nodeApp from git://github.com/prai-git/nodeApp
+12 silly lockFile 61398637-git-github-com-prai-git-nodeApp git://github.com/prai-git/nodeApp
+13 verbose lock git://github.com/prai-git/nodeApp C:\Users\admin\AppData\Roaming\npm-cache\61398637-git-github-com-prai-git-nodeApp.lock
+14 verbose addRemoteGit [ 'git://github.com/prai-git/nodeApp', 'master' ]
+15 verbose git clone git://github.com/prai-git/nodeApp Cloning into bare repository 'C:\Users\admin\AppData\Roaming\npm-cache\_git-remotes\git-github-com-prai-git-nodeApp-61398637'...
+15 verbose git clone git://github.com/prai-git/nodeApp Checking connectivity... done
+16 verbose git fetch -a origin (git://github.com/prai-git/nodeApp)
+17 silly verifyOwnership skipping for windows
+18 verbose git rev-list -n1 master 45f704bf25333466d5577d8dac3ca912585ebc2a
+19 verbose resolved git url git://github.com/prai-git/nodeApp#45f704bf25333466d5577d8dac3ca912585ebc2a
+20 verbose tar unpack C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz
+21 silly lockFile be108e09-0-815130906412378-tmp-tgz-unpack tar://C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz-unpack
+22 verbose lock tar://C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz-unpack C:\Users\admin\AppData\Roaming\npm-cache\be108e09-0-815130906412378-tmp-tgz-unpack.lock
+23 silly lockFile 9b538e5f-275359-0-815130906412378-tmp-tgz tar://C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz
+24 verbose lock tar://C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz C:\Users\admin\AppData\Roaming\npm-cache\9b538e5f-275359-0-815130906412378-tmp-tgz.lock
+25 silly gunzTarPerm modes [ '777', '666' ]
+26 silly gunzTarPerm extractEntry
+27 silly gunzTarPerm modified mode [ '', 509, 511 ]
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+30 silly lockFile be108e09-0-815130906412378-tmp-tgz-unpack tar://C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz-unpack
+31 silly lockFile be108e09-0-815130906412378-tmp-tgz-unpack tar://C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz-unpack
+32 silly lockFile 9b538e5f-275359-0-815130906412378-tmp-tgz tar://C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz
+33 silly lockFile 9b538e5f-275359-0-815130906412378-tmp-tgz tar://C:\Users\admin\AppData\Local\Temp\npm-5028-UiTi8rJ9\1423053275359-0.815130906412378\tmp.tgz
+34 silly lockFile 61398637-git-github-com-prai-git-nodeApp git://github.com/prai-git/nodeApp
+35 silly lockFile 61398637-git-github-com-prai-git-nodeApp git://github.com/prai-git/nodeApp
+36 info maybeGithub Attempting prai-git/nodeApp from git+ssh://git@github.com:prai-git/nodeApp
+37 silly lockFile cc3b9945-git-github-com-prai-git-nodeApp git@github.com:prai-git/nodeApp
+38 verbose lock git@github.com:prai-git/nodeApp C:\Users\admin\AppData\Roaming\npm-cache\cc3b9945-git-github-com-prai-git-nodeApp.lock
+39 verbose addRemoteGit [ 'git@github.com:prai-git/nodeApp', 'master' ]
+40 error git clone git@github.com:prai-git/nodeApp Cloning into bare repository 'C:\Users\admin\AppData\Roaming\npm-cache\_git-remotes\git-github-com-prai-git-nodeApp-cc3b9945'...
+40 error git clone git@github.com:prai-git/nodeApp
+40 error git clone git@github.com:prai-git/nodeApp Warning: Permanently added 'github.com,192.30.252.128' (RSA) to the list of known hosts.
+40 error git clone git@github.com:prai-git/nodeApp Permission denied (publickey).
+40 error git clone git@github.com:prai-git/nodeApp fatal: Could not read from remote repository.
+40 error git clone git@github.com:prai-git/nodeApp
+40 error git clone git@github.com:prai-git/nodeApp Please make sure you have the correct access rights
+40 error git clone git@github.com:prai-git/nodeApp and the repository exists.
+41 silly lockFile cc3b9945-git-github-com-prai-git-nodeApp git@github.com:prai-git/nodeApp
+42 silly lockFile cc3b9945-git-github-com-prai-git-nodeApp git@github.com:prai-git/nodeApp
+43 silly lockFile 17a39af3-prai-git-nodeApp prai-git/nodeApp
+44 silly lockFile 17a39af3-prai-git-nodeApp prai-git/nodeApp
+45 error addLocal Could not install prai-git/nodeApp
+46 error Error: ENOENT, stat 'C:\apps\wamp\www\mynode\prai-git\nodeApp'
+47 error If you need help, you may report this *entire* log,
+47 error including the npm and node versions, at:
+47 error     <http://github.com/npm/npm/issues>
+48 error System Windows_NT 6.1.7601
+49 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "prai-git/nodeApp"
+50 error cwd C:\apps\wamp\www\mynode
+51 error node -v v0.10.32
+52 error npm -v 1.4.28
+53 error path C:\apps\wamp\www\mynode\prai-git\nodeApp
+54 error code ENOENT
+55 error errno 34
+56 verbose exit [ 34, true ]
